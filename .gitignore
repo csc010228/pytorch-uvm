@@ -1,0 +1,51 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data
+/data/
+
+# Model checkpoints
+*.pt
+*.pth
+*.h5
+
+# Logs
+*.log
+
+# Build directories and compilation artifacts
+build/
+dist/
+*.egg-info/
+*.so
+*.o
+*.a
+*.out
+*.exe
+*.dll
+*.dylib
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+Makefile.user
+*.cmake
+
+# System files
+.DS_Store
+Thumbs.db
