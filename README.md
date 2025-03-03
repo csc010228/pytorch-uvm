@@ -36,3 +36,8 @@ Before starting, make sure your environment has the following dependencies insta
 ```bash
 LD_PRELOAD=ptuvm.so python3 your_model_training_or_inference_script.py
 ```
+
+## TODO List
+
+- [ ] Test more models and check whether the CUDA operation API is not blocked.
+- [ ] Introduce prefetching operations to speed up the training
