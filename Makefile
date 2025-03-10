@@ -6,7 +6,7 @@ LDFLAGS = -ldl -lrt -lcuda -lcudart
 TARGET = ptuvm.so
 
 # Source files
-SRC = cuda_intercept.c util.c
+SRC = cuda_intercept.c
 
 # Default target
 all: $(TARGET)
